@@ -1,12 +1,15 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+//import Person from './Class-component/Person';
+import Fruit from './Functional-component/Fruit';
+import Employee from './Map-method/Employee'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.textStyle}>Open up App.js to start working on your app!</Text>
-      <Text>Open up App.js to start working on your app!</Text>
-      <Text>Open up App.js to start working on your app!</Text>
+     {/* <Person/> */}
+     {/* <Fruit name="banana" cost="30"/> */}
+     <Employee/>
     </View>
   );
 }
@@ -18,7 +21,5 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  textStyle:{
-    color:'orange'
-  }
+  
 });
