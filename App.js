@@ -5,7 +5,8 @@ import { StyleSheet, Text, View } from 'react-native';
 //import Employee from './Map-method/Employee';
 //import Car from './State/Car'
 //import Fruit from './setState/Fruit';
-import Bird from './Input-box/Bird'
+//import Bird from './Input-box/Bird';
+import Posts from './API-call/Posts'
 export default function App() {
   return (
     <View style={styles.container}>
@@ -13,7 +14,8 @@ export default function App() {
      {/* <Fruit name="banana" cost="30"/> */}
      {/* <Employee/> */}
      {/* <Car/> */}
-    <Bird/>
+    {/* <Bird/> */}
+    <Posts/>
     </View>
   );
 }
