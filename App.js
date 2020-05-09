@@ -6,7 +6,9 @@ import { StyleSheet, Text, View } from 'react-native';
 //import Car from './State/Car'
 //import Fruit from './setState/Fruit';
 //import Bird from './Input-box/Bird';
-import Posts from './API-call/Posts'
+//import Posts from './API-call/Posts';
+//import Average from './Averege';
+import ImagePicker from './Image-Picker'
 export default function App() {
   return (
     <View style={styles.container}>
@@ -15,7 +17,9 @@ export default function App() {
      {/* <Employee/> */}
      {/* <Car/> */}
     {/* <Bird/> */}
-    <Posts/>
+    {/* <Posts/> */}
+    {/* <Average/> */}
+    <ImagePicker/>
     </View>
   );
 }
