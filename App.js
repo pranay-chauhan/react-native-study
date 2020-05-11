@@ -8,7 +8,10 @@ import { StyleSheet, Text, View } from 'react-native';
 //import Bird from './Input-box/Bird';
 //import Posts from './API-call/Posts';
 //import Average from './Averege';
-import ImagePicker from './Image-Picker'
+//import ImagePicker from './Image-Picker';
+//import User from './InputElement/User';
+//import Employee from './Form/Employee';
+import Flex from './Flex/Flex'
 export default function App() {
   return (
     <View style={styles.container}>
@@ -19,7 +22,10 @@ export default function App() {
     {/* <Bird/> */}
     {/* <Posts/> */}
     {/* <Average/> */}
-    <ImagePicker/>
+    {/* <ImagePicker/> */}
+    {/* <User/> */}
+    {/* <Employee/> */}
+    <Flex/>
     </View>
   );
 }
