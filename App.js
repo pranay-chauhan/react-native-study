@@ -10,8 +10,10 @@ import { StyleSheet, Text, View } from 'react-native';
 //import Average from './Averege';
 //import ImagePicker from './Image-Picker';
 //import User from './InputElement/User';
-//import Employee from './Form/Employee';
-import Flex from './Flex/Flex'
+import Employee from './Form/Employee';
+//import Flex from './Flex/Flex';
+//import UseState from './Hooks/UseState'
+import Fruit from './FlatList/Fruit'
 export default function App() {
   return (
     <View style={styles.container}>
@@ -24,8 +26,10 @@ export default function App() {
     {/* <Average/> */}
     {/* <ImagePicker/> */}
     {/* <User/> */}
-    {/* <Employee/> */}
-    <Flex/>
+    <Employee/>
+    {/* <Flex/> */}
+    {/* <UseState/> */}
+    {/* <Fruit/> */}
     </View>
   );
 }
