@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import UseEffect from './Hooks/UseEffect';
 //import Person from './Class-component/Person';
 //import Fruit from './Functional-component/Fruit';
 //import Employee from './Map-method/Employee';
@@ -10,10 +11,12 @@ import { StyleSheet, Text, View } from 'react-native';
 //import Average from './Averege';
 //import ImagePicker from './Image-Picker';
 //import User from './InputElement/User';
-import Employee from './Form/Employee';
+//import Employee from './Form/Employee';
 //import Flex from './Flex/Flex';
 //import UseState from './Hooks/UseState'
-import Fruit from './FlatList/Fruit'
+//import Fruit from './FlatList/Fruit';
+//import Example from './Loader/Example';
+
 export default function App() {
   return (
     <View style={styles.container}>
@@ -26,10 +29,12 @@ export default function App() {
     {/* <Average/> */}
     {/* <ImagePicker/> */}
     {/* <User/> */}
-    <Employee/>
+    {/* <Employee/> */}
     {/* <Flex/> */}
     {/* <UseState/> */}
     {/* <Fruit/> */}
+    {/* <Example/> */}
+    <UseEffect/>
     </View>
   );
 }
